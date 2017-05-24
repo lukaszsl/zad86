@@ -1,0 +1,22 @@
+{
+  "name": "zad83-kodilla",
+  "version": "1.0.0",
+  "description": "grunt-contrib-jshint feature ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint-kodilla"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "kodilla"
+  ],
+  "author": "Lukasz Sliczner",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}
