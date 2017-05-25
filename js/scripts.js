@@ -1,13 +1,13 @@
 var a = 0,
 	b = 0,
-	value = 0;
+	value = 0,
+	isPositive;
 
-value = (a*a) + 2*(a*b) + (b*b);
+value = (a * a) + 2*(a * b) + (b * b);
 
-if(value!==0){
-	var isPositive = value<0 ? 'The value is negative!' : 'The value is positive!';
-}
-else{
+if (value!==0) {
+	isPositive = value < 0 ? 'The value is negative!' : 'The value is positive!';
+}else {
 	isPositive = 'The value is 0';
 }
 
